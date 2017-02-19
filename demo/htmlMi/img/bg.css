@@ -1,0 +1,16 @@
+@charset "utf-8";
+/* xiaomi */
+body{width:1007px; margin:0 auto; font-size:12px; font-family:Verdana, Geneva, sans-serif,'宋体';}
+.box{width:930px; margin:0 auto;}
+.nav1{height:12px; padding:12px 38px; margin:0 auto;background:#fafafa; border-bottom:1px #dfdfdf solid;}
+.nav1 ul{width:577px; float:left;}
+.nav1 li{padding:0 16px 0 12px; float:left; border-right:1px solid #dfdfdf;}
+.nav1 a{color:#8c8c8c;}
+.nav1 .no7{border:none;}
+.load{float:right;}
+.load a{display:block; padding-left:16px; float:left;}
+.load .borr{padding-right:16px; border-right:1px solid #dfdfdf;}
+
+.logo{padding:25px 0 15px 0;}
+h1{text-indent:-999em; background:url(logo.png); width:70px; height:70px; float:left;}
+.logort{background:}

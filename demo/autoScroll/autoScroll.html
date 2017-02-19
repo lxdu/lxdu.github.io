@@ -1,0 +1,76 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>自动播放无缝滚动选项卡</title>
+<style>
+*{margin:0; padding:0; list-style:none;}
+#box{width:800px; height:200px; margin:100px auto; border:1px solid red; position:relative; top:0; left:0; overflow:hidden;}
+ul{overflow:hidden; position:absolute; top:0; left:0;}
+li{float:left; width:200px; height:200px;}
+li img{width:100%;}
+#box a{position:absolute; top:0; width:50%; height:100%; background:#ccc; opacity:0; filter:alpha(opacity:0);}
+#box .left{left:0;}
+#box .right{right:0;}
+</style>
+<script>
+window.onload=function(){
+	var oBox = document.getElementById('box');
+	var oUl = oBox.children[0];
+	var oLeft = oBox.children[1];
+	var oRight = oBox.children[2];
+	var aLi = oUl.children;
+	oUl.innerHTML+=oUl.innerHTML;
+	oUl.style.width = aLi.length*aLi[0].offsetWidth+'px';
+	var timer = null;
+	var w = oUl.offsetWidth/2;
+	var left = 0;
+	oLeft.onmouseover=function(){
+		clearInterval(timer);
+		timer = setInterval(function(){
+			left-=10;
+			if(left<0){
+				oUl.style.left = left%w+'px';
+			}else{
+				oUl.style.left = (left%w-w)%w+'px';
+			}
+		},30);
+	};
+	oRight.onmouseover=function(){
+		clearInterval(timer);
+		timer = setInterval(function(){
+			left+=10;
+			if(left<0){
+				oUl.style.left=left%w+'px';
+			}else{
+				oUl.style.left = (left%w-w)%w+'px';
+			}
+		},30);
+	};
+};
+</script>
+</head>
+
+<body>
+<div id="box">
+	<ul>
+    	<li><img src="pic/1.jpg" /></li>
+    	<li><img src="pic/2.jpg" /></li>
+    	<li><img src="pic/3.jpg" /></li>
+    	<li><img src="pic/4.jpg" /></li>
+    </ul>
+    <a href="javascript:;" class="left"></a>
+    <a href="javascript:;" class="right"></a>
+</div>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+

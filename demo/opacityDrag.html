@@ -1,0 +1,58 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>透明拖拽</title>
+<style>
+*{margin:0; padding:0;}
+div{width:200px; height:200px; background:url(../img/180125261244126.png); background-size:100%; position:absolute; top:0; left:0;}
+</style>
+<script>
+window.onload=function(){
+	var oBox = document.getElementById('box');
+	oBox.onmousedown=function(ev){
+		var oEvent = ev||event;
+		var disX = oEvent.clientX-oBox.offsetLeft;
+		var disY = oEvent.clientY-oBox.offsetTop;
+		var oNowDiv = oBox.cloneNode(true);
+		oNowDiv.removeAttribute('id');
+		oNowDiv.style.opacity=0.4;
+		oNowDiv.style.filter='alpha(opacity:40)';
+		document.body.appendChild(oNowDiv);
+		document.onmousemove=function(ev){
+			var oEvent = ev||event;
+			oNowDiv.style.left = oEvent.clientX-disX+'px';
+			oNowDiv.style.top = oEvent.clientY-disY+'px';
+		};
+		document.onmouseup=function(){
+			document.onmousemove=null;
+			document.onmouseup=null;
+			oBox.style.left = oNowDiv.offsetLeft+'px';
+			oBox.style.top = oNowDiv.offsetTop+'px';
+			document.body.removeChild(oNowDiv);
+			oBox.releaseCapture&&oBox.releaseCpature();
+		};
+		oBox.setCapture&&oBox.setCapture();
+		return false;
+	};
+};
+</script>
+</head>
+
+<body>
+<div id="box"></div>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+

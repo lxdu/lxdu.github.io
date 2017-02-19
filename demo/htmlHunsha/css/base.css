@@ -1,0 +1,11 @@
+@charset "utf-8";
+/* CSS Document */
+*{ padding:0; margin:0; line-height:100%; font-size:14px; font-family:'微软雅黑'; color:#787878;}
+ul,ol{ list-style:none;}
+a{text-decoration:none; color:#a2a2a2; font-size:12px; font-family:'微软雅黑';}
+a:hover{color:#ba1911;}
+h1,h2,h3,h4,h5,h6,b,strong{font-weight:normal;}
+i,em{font-style:normal;}
+a img{border:none;}
+.clearfix:after{display:block; content:''; clear:both;}
+.clearfix{zoom:1;}

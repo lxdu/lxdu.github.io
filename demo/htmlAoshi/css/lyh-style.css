@@ -1,0 +1,51 @@
+@charset "utf-8";
+/* CSS Document */
+.lyh{ width:767px; background:#282828; padding-top:5px;  margin-left:5px;}
+
+.lyh_redian h3{ font-size:14px; color:#ccc; margin-left:5px;font-weight:bold; margin-bottom:13px;}
+.lyh_rd{ margin-left:5px; margin-bottom:13px;}
+.lyh_rd li{ width:140px;float:left; margin-right:13px;}
+.lyh_a1{ width:140px; height:80px; position:relative; display:block;}
+.lyh_a1 img{width:140px; height:80px;}
+.lyh_a1 span{ position:absolute; top:17px; left:48px; background:url(../images/video-png24.png) no-repeat; width:43px; height:43px; display:none;}
+.lyh_a2{ font-size:12px; display:block; color:#fff; line-height:22px;}
+.lyh_rd .last{ margin-right:-13px;}
+
+
+.lyh_dianying{ width:767px; position:relative; margin-top:10px; padding-top:10px;}
+.lyh_dianying i{ position:absolute; top:0; left:0; background:url(../images/bg-5.png) no-repeat; width:675px; height:1px;}
+.lyh_dy{ width:100%;}
+.lyh_dy1{ float:left;font-size:14px; color:#ccc; margin-left:5px;font-weight:bold;}
+.lyh_dy2{ float:right;}
+.lyh_dy2 li{ float:left;}
+.lyh_dy2 li a{ font-size:12px;  color:#ccc;}
+.lyh_dy2 li a:hover{color:#600;}
+.lyh_dy2 li span{font-size:12px;  color:#738c73;}
+.lyh_dyy{ margin-left:5px; margin-bottom:13px; margin-top:10px;}
+.lyh_dyy li{ float:left; width:120px; margin-right:38px;}
+.lyh_dyy .last1{ margin-right:-40px;}
+.lyh_a3{ width:120px; height:165px; position:relative;display:block;}
+.lyh_a3 img{width:120px; height:165px;}
+.lyh_a3 .sp1{ position:absolute; top:61px; left:33px; background:url(../images/video-png24.png) no-repeat; width:43px; height:43px; display:none;}
+.lyh_a4{ font-size:12px; display:block; color:#fff; line-height:22px;}
+.lyh_rd .last{ margin-right:-38px;}
+
+#box ul{ display:none;}
+#box2 ul{ display:none;}
+
+#box p{font-size:12px;color:#8c8c8c;}
+.lyh_a3 .sp2{ background:url(../images/squre.png) no-repeat; width:15px; height:13px;position:absolute;top:150px; left:0;}
+
+.lyh_dsj{ margin-left:5px;width:100%;}
+.lyh_dsj li{ float:left; width:160px; margin-right:38px; margin-top:10px;}
+.lyh_dsj .last2{margin-right:-38px;}
+.lyh_a5{ width:160px; height:90px; position:relative;display:block;}
+.lyh_a5 img{width:160px; height:90px;}
+.lyh_a5 .sp1{ position:absolute; top:18px; left:56px; background:url(../images/video-png24.png) no-repeat; width:43px; height:43px; display:none;}
+.lyh_a6{ font-size:12px; display:block; color:#fff; line-height:22px;}
+
+.lyh_dsj p{font-size:12px;color:#8c8c8c;}
+.lyh_a5 .sp2{ background:url(../images/squre.png) no-repeat; width:15px; height:13px;position:absolute;top:75px; left:0;}
+
+.banner img{ margin:10px 0 10px 5px; height:93px; width:762px; overflow:hidden;}
+

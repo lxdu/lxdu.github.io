@@ -1,0 +1,13 @@
+@charset "utf-8";
+/* CSS Document */
+.xjw{width:767px; height:336px; background:url(images/icons/focus_bg.png);}
+.xjw_t{ width:767px; margin-left:5px; position:relative;}
+.xjw_t li{ display:none;}
+.xjw_t li img{ width:767px; height:288px;}
+.xjw_t div{ position:absolute; bottom:0; left:0; background:#000; height:34px; opacity:0.5;  filter:alpha(opacity:50); width:767px;}
+.xjw_t a{ font-size:14px; line-height:34px; padding-left:20px; color:#FFF; position:absolute; bottom:0; left:0;}
+.xjw_t .on{ display:block;}
+.xjw_b{ width:767px; height:48px; background:#000; margin-left:5px;}
+.xjw_b li{ width:73px; height:43px; margin-top:4px; float:right; margin-right:3px; display:inline;}
+.xjw_b li img{ width:72px; height:43px; border:1px solid #000;}
+.xjw_b .on img{ border:1px solid #FFF;}

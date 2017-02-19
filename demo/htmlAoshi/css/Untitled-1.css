@@ -1,0 +1,54 @@
+@charset "utf-8";
+/* CSS Document */
+
+.aoyou_index{width:1024px;
+               height: 100%;
+               background: #353537;
+               border: 1px solid #000;
+               margin: 2px auto 0;
+               overflow: hidden;
+               padding: 1px;}
+body{ background:#282828;}
+.allhearder{ width:1024px; height:39px; background:url(../images/bg.png)}
+.zmp_hdtv{ width:66px; height:30px; background:url(../images/tv.png); padding-left:32px; color:#a9a9a9; line-height:30px; margin-top:4px; margin-left:9px; display:inline-block;}
+.zmp_play li{ padding:0 3px; height:18px; float:left; margin-left:24px; color:#a9abaa; font-size:16px; margin-top:16px;}
+.zmp_play li a{color:#a9abaa; font-size:16px;}
+.zmp_close{ margin-top:8px; margin-right:10px;}
+.zmp_close li{ float:left; width:24px; height:24px; margin-left:10px;}
+.zmp_close .zmp_close_f{ background:url(../images/heng.png) no-repeat 12px 9px;}
+.zmp_close .zmp_close_s{ background:url(../images/fn.png) no-repeat 12px 6px;}
+.zmp_close .zmp_close_t{ background:url(../images/cl.png) no-repeat 12px 6px;}
+.zmp_f{ width:1024px;}
+.zmp_left_search{width:236px;}
+.zmp_left_search .zmp_left{ width:236px; height:32px; background:url(../images/search_bg.png);}
+.zmp_left_search .zmp_text{ width:200px; height:20px; margin-left:4px; border:none; color:#8C8C8C; margin-top:5px;}
+.zmp_left_search .zmp_left a{ width:21px; height:31px; background:url(../images/schear.png);}
+.zmp_left_search .zmp_user{ width:232px; height:17px; background:url(../images/userTitle_libg.png); border:1px
+ solid #000;}
+.zmp_left_search .zmp_user li{ float:left; padding:0 3px; color:#ccc; font-size:14px; line-height:17px; border-right:1px solid #000;}
+.zmp_left_search .zmp_user .zmp_yy{ color:#FC0;}
+.zmp_left_search .zmp_user_ms{ width:222px; height:60px; border:1px solid #000; padding-top:10px; padding-left:10px;}
+.zmp_user_ms_name{ color:#ff6600; font-size:14px; position:relative; width:115px;}
+.zmp_user_ms div{  width:166px; height:60px; }
+.zmp_user_ms_name span{ width:19px; height:13px;position:absolute; background:url(../images/user_doudou.png); top:-3px; right:2px;}
+.zmp_user_ms p{ color:#ccc;}
+.zmp_user_ms_f{ display:inline-block;width:17px; height:17px; background:url(../images/level_sun.png)0 3px;}
+.zmp_user_ms_s{ display:inline-block;width:17px; height:17px; background:url(../images/level_xing.png)0 3px;}
+.zmp_user_ms_t{ display:inline-block;width:17px; height:17px; background:url(../images/level_yue.png)0 3px;}
+.zmp_user_ms_d{ background:url(../images/level.png) no-repeat 0 3px; padding-left:30px;}
+.zmp_user_ms_money{ color:#ccc; margin-top:5px;}
+.zmp_user_ms_money a{ color:#ccc; margin-left:5px;}
+.zmp_user_ms_money span{ color:#ff6600;}
+
+.ay_right{ width:788px; height:814px; overflow:auto;}
+.ay_right_float{ width:767px;}
+.zmp_nav{ width:767px; height:24px; background:#383735; padding-top:14px; margin-left:5px;}
+.zmp_nav_gf{ width:20px; height:19px; background:url(../images/back_btn.png)}
+.zmp_nav_n{ width:20px; height:19px; background:url(../images/refresh.png); margin:0 10px;}
+.zmp_nav li{ float:left; margin-right:20px; font-weight:bold; font-size:14px; color:#ccc; }
+.zmp_lookup{ width:150px; height:16px; background:#191917; border-radius:4px; padding-top:4px; position:relative; margin-right:10px; }
+.zmp_lookup input{ width:120px;color:#ccc;}
+.zmp_lookup a{ position:absolute; right:0; top:0; width:21px; height:28px; background:url(../images/new.png) no-repeat 0 2px;}
+.allhearder .zmp_play .on1{ background:url(../images/red.png);}
+.r_footer{ width:1024px; margin:0 auto;}
+
