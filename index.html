@@ -1,133 +1,14 @@
-<!doctype html>
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-<meta charset="utf-8">
-<title>无标题文档</title>
-<link href="css/index.css" rel="stylesheet"/>
-<link href="css/base.css" rel="stylesheet"/>
-<script src="js/index.js"></script>
-<script src="js/move.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>个人站</title>
 </head>
-
 <body>
-<div class="perWeb">
-	<div class="nav" id="nav">
-    	<span class="ball1"><a href="#home">首页</a></span>
-    	<span class="ball2"><a href="#htmlbar">网页作品</a></span>
-    	<span class="ball3"><a href="#js">js效果</a></span>
-    	<span class="ball4"><a href="#about">关于我</a></span>
-    	<span class="ball5"><a href="javascript:;">CLICK</a></span>
+    <div>
+        <a href="my.html">我的</a>
+        <a href="web.html">网站</a>
     </div>
-    
-    
-    <div class="main" id="main">
-    
-        <div class="home" id="home">
-            <div class="hbar" id="hbar">
-            	<h5>个人技能</h5>
-                <ul class="itemh">
-                    <li>
-                        <span>HTML+CSS</span>
-                        <div class="base">
-                            <div class="s1"></div>
-                        </div>
-                    </li>
-                    <li>
-                        <span>JavaScript</span>
-                        <div class="base">
-                            <div class="s2"></div>
-                        </div>
-                    </li>
-                    <li>
-                        <span>Ajax/Jsonp</span>
-                        <div class="base">
-                            <div class="s3"></div>
-                        </div>
-                    </li>
-                    <li>
-                        <span>JQuery</span>
-                        <div class="base">
-                            <div class="s4"></div>
-                        </div>
-                    </li>
-                </ul>
-            </div>
-            
-            <ul id="Pic">
-                <li class="pic1">
-                    <a href="http://www.photoshop.com/" target="_blank"><img src="img/ps.png" alt="ps" class="unactive" width="120" /></a><!-- 208 -->
-                    <span></span>
-                </li>
-                <li class="pic2">
-                    <a href="http://www.adobe.com/cn/products/dreamweaver.html" target="_blank"><img src="img/dw.png" alt="dw" width="140" /></a>
-                    <span></span>
-                </li>
-                <li class="pic3">
-                    <a href="http://www.sublimetext.com/" target="_blank"><img src="img/s.png" alt="sublime" class="unactive" width="120" /></a>
-                    <span></span>
-                </li>
-            </ul>
-        </div>
-        
-        <div class="html" id="htmlbar">
-        	<h3><img src="img/html.gif"></img></h3>
-            <div id="html">
-                <ul>
-                    <li><a href="demo/htmlAoshi/index.html" target="_blank"><img src="img/aoshi.jpg" /></a></li>
-                    <li><a href="demo/htmlMeituan/detail/detail.html" target="_blank"/><img src="img/meituan.jpg" /></li>
-                    <li><a href="demo/htmlHunsha/index.html" target="_blank"><img src="img/hunsha.jpg" /></a></li>
-                    <li><a href="demo/htmlBeautiful/index.html" target="_blank"><img src="img/beautiful.jpg" /></a></li>
-                    <li><a href="demo/htmlMi/index.html" target="_blank"><img src="img/mi.jpg" /></a></li>
-                </ul>
-                <ol>
-                    <li class="on">0</li>
-                    <li>1</li>
-                    <li>2</li>
-                    <li>3</li>
-                    <li>4</li>
-                </ol>
-                <a href="javascript:;" class="prev">prev</a>
-                <a href="javascript:;" class="next">next</a>
-            </div>
-        </div>
-        
-        <div class="js" id="js">
-        	<h3><img src="img/js.png"></img></h3>
-            <ul class="jsnav">
-                <li><span><a href="demo/screenSaver.html" target="_blank">碰撞小球</a></span><img src="img/screenSaver.png"/></li>
-                <li><span><a href="demo/hail.html" target="_blank">投掷冰雹</a></span><img src="img/hails.jpg"/></li>
-                <li><span><a href="demo/pictureWall/pictureWall.html" target="_blank">照片墙</a></span><img src="img/pictureWall.png"/></li>
-                <li><span><a href="demo/iphone/iphone.html" target="_blank">手机翻页</a></span><img src="img/iphone.png"/></li>
-                <li><span><a href="demo/blockMove/blockMove.html" target="_blank">分块打开</a></span><img src="img/blockMove.png"/></li>
-                <li><span><a href="demo/autoScroll/autoScroll.html" target="_blank">自动放映</a></span><img src="img/autoScroll.jpg"/></li>
-                <li><span><a href="demo/scrollTab/scrollTab.html" target="_blank">无缝滚动</a></span><img src="img/scrollTab.png"/></li>
-                <li><span><a href="demo/iphoneMenu/iphoneMenu.html" target="_blank">苹果菜单</a></span><img src="img/iphoneMenu.jpg"/></li>
-                <li><span><a href="demo/playBackDrag.html" target="_blank">拖拽回放</a></span><img src="img/playBackDrag.png"/></li>
-                <li><span><a href="demo/opacityDrag.html" target="_blank">透明拖拽</a></span><img src="img/opacityDrag.png"/></li>
-                <li><span><a href="demo/accordion/accordion.html" target="_blank">手风琴</a></span><img src="img/accordion.jpg"/></li>
-                <li><span><a href="demo/showOpus/showOpus.html" target="_blank">放大展示</a></span><img src="img/showOpus.jpg"/></li>
-            </ul>
-        </div>
-        
-        <div class="about" id="about">
-        	<h3><img src="img/about.gif"></img></h3>
-            <img src="img/about2.gif" class="me" id="aboutLoad"/>
-            <p class="aboutClick"></p>
-            <div id="abshadow"></div>
-            <div id="abbox">
-            	<img src="img/fileclose.png" class="fileClose" id="aboutClose"/>
-            	<img src="img/aboutme.jpg" class="aboutme"/>
-            </div>
-        </div>
-    </div>
-    <div class="footer clearfix">
-    	<div class="fopa"></div>
-    	<ul>
-        	<li>联系方式：</li>
-        	<li class="ftel">13521861336</li>
-        	<li class="fmail">it5dudu@163.com</li>
-        </ul>
-    </div>
-</div>
 </body>
 </html>
